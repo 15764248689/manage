@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/log4j.properties=UTF-8
+encoding//WebContent/WEB-INF/mybatis.properties=UTF-8
+encoding//src/com/manage/IDao/userMapper.java=UTF-8
+encoding//src/com/manage/util/Paging.java=UTF-8
+encoding/<project>=UTF-8

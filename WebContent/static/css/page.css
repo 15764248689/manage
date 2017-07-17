@@ -1,0 +1,322 @@
+.home-title{
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 20px;
+}
+.home-title dt{
+	font-size: 24px;
+	background:-webkit-linear-gradient(top,#00968c 25%,#006496);
+	-webkit-background-clip:text;/*只有webkit内核支持text的剪切模式*/
+	color:transparent;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.home-title dd{
+	font-size: 16px;
+}
+.home-type{
+  	margin: 20px 15px;
+}
+.home-type li{
+	background: #fff;
+	border: #dddddd 1px solid;
+	padding: 1%;
+	margin: 0 1%;
+	float: left;
+	width: 23%;
+	min-height: 400px;
+}
+.home-type li .hexagon{
+	width: 50%;
+	padding-top: 58%;
+	background: url('../images/hexagon.png') center no-repeat;
+	background-size: 100%;
+	text-align: center;
+	margin: 20px auto;
+	position: relative;
+}
+.home-type li .hexagon i{
+	position: absolute;
+	width: 63%;
+	height: 48%;
+	background-size: 100% auto;
+	top: 25%;
+	left: 20%;
+}
+.home-type li .title{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.home-type li .info{
+	line-height: 28px;
+}
+.home-link{	
+  	margin: 20px 15px;
+}
+.home-link li{
+	background: #fff;
+	border: #dddddd 1px solid;
+	padding: 1%;
+	margin: 0 1%;
+	float: left;
+	width: 23%;
+}
+.home-link li .hexagon{
+	width: 30%;
+	padding-top: 35%;
+	background: url('../images/hexagon.png') center no-repeat;
+	background-size: 100% 100%;
+	margin-right: 8%;
+	float: left;
+	position: relative;
+}
+.home-link li .hexagon i{
+	position: absolute;
+	width: 63%;
+	height: 48%;
+	background-size: 100% auto;
+	top: 25%;
+	left: 20%;
+}
+.home-link li .linkText{
+	padding-top: 5%;
+}
+.home-link li .linkText dt{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.home-link li .linkText dd a{
+	display: inline-block;
+	margin-right: 5px;
+	line-height: 24px;
+}
+.location{
+	height: 40px;
+	padding-left: 22px;
+	line-height: 40px;
+	color: #00968c;
+	font-size: 16px;
+	font-weight: bold;
+	background: #fff;
+	border-bottom: #dddddd 1px solid;
+	margin-bottom: 20px;
+}
+.location i{
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+	background-size: 100%;
+}
+.monite-dl{
+	border: #dfdfdf 1px solid;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	display: inline-block;
+	float: left;
+	width:47%;
+}
+.monite-dl dt{
+	background: #dfdfdf;
+	width: 44px;
+	padding: 25px 12px;
+	line-height: 32px;
+	color: #00968c;
+	font-size: 18px;
+	float: left;
+	margin-right: 20px;
+}
+.monite-dl dd{
+	float: left;
+	padding: 10px;
+}
+.monite-dl>img{
+	float: left;
+	height:33%;
+	padding: 0,50px;
+}
+.count-left{
+	float: left;
+	width: 49%;
+	border-right: #ddd 1px solid;
+}
+.count-right{
+	float: right;
+	width: 49%;
+	border-left: #ddd 1px solid;
+}
+.forecast-list{
+	height: 420px;
+}
+.forecast-list li{
+	width: 100%;
+	border-bottom: #ddd 1px dotted;
+	line-height: 40px;
+	color: #ababab;
+}
+.forecast-list li span{
+	font-size: 12px;
+}
+.forecast-list li i{
+	float: left;
+	margin-right: 10px;
+	margin-top: 12px;
+}
+.forecast-list li.unRead{
+	color: #ff4900;
+}
+.monite-weather li{
+	width:100px;
+	text-align:center;
+	line-height:50px;
+	float:left;
+}
+.monite-weather li>div{
+	font-size:18px;
+	font-weight:bold;
+}
+.monite-weather li>div span{
+	font-size:12px;
+	font-weight:100;
+	padding-left:5px;
+}
+.monite-now{
+	border: 1px solid #d4d4d4;
+	padding: 15px 1.5%;
+	height: 300px;
+	width: 26%;
+	float: left;
+}
+.monite-now .time{
+	font-size: 12px;
+	color: #7e7e7e;
+}
+.monite-now .weather{
+	margin: 20px 1%;
+	position: relative;
+}
+.monite-now .weather .weatherglass{
+	width: 76px;
+	height: 133px;
+	background: url(../images/weatherglass.jpg) no-repeat;
+	position: relative;
+	float: left;
+}
+.monite-now .weather .weatherglass span{
+	position: absolute;
+	width: 13px;
+	bottom: 40px;
+	left: 37px;
+	background: #f17116;
+	border-radius: 7px 7px 0 0;
+}
+.monite-now .weather .text{
+	font-size: 12px;
+	color: #7e7e7e;
+	background: url(../images/message.jpg) left center no-repeat;
+	padding-left: 20px;
+	top: 25px;
+	position: absolute;
+	right: 0;
+}
+.monite-now .weather .degree{
+	font-size: 50px;
+	color: #2d76b6;
+	margin-top: 85px;
+	position: absolute;
+	left: 95px;
+}
+.monite-now .weather .degree span{
+	font-size: 66px;
+}
+.monite-now .humidity-wind{
+	margin: 10px 0;
+	font-size: 16px;
+}
+.monite-now .humidity-wind .humidity{
+	display: inline-block;
+	width: 50%;
+	background: url(../images/humidity.jpg) left center no-repeat;
+	padding-left: 20px;
+}
+.monite-now .humidity-wind .wind{
+	display: inline-block;
+	width: 47%;
+	background: url(../images/wind.jpg) left center no-repeat;
+	padding-left: 25px;
+}
+.monite-now .grade{
+	color: #eec50b;
+	background: url(../images/grade.jpg) left center no-repeat;
+	padding-left: 25px;
+	font-size: 16px;
+}
+.monite-day{
+	text-align: center;
+	border: 1px solid #d4d4d4;
+	padding: 15px 1%;
+	height: 300px;
+	width: 11%;
+	float: left;
+	margin-left: 0.5%;
+	line-height: 34px;
+}
+.monite-day span{
+	padding-top: 10px;
+	color: #7f7f7f;
+	font-size: 30px;
+	display: inline-block;
+}
+.monite-day em{
+	font-style: normal;	
+	background: url(../images/drop.jpg) left center no-repeat;
+	display: inline-block;
+	padding-left: 15px;
+}
+.monite-day i{
+	font-style: normal;
+	background: url(../images/sunup.jpg) left center no-repeat;
+	display: inline-block;
+	padding-left: 25px;
+}
+.monite-night em{
+	background: url(../images/rise.jpg) left center no-repeat;
+}
+.monite-night i{
+	background: url(../images/sundown.jpg) left center no-repeat;
+}
+.monite-change {
+	float: left;
+	margin-left: 0.5%;
+	width: 50%;
+}
+.monite-change li{
+	text-align: center;
+	width: 12.5%;
+	float: left;
+	line-height: 30px;
+}
+.monite-change li>img{
+	height: 35px;
+}
+.change-line{
+	margin: 15px 0;
+	height: 180px;
+	width: 100%;
+}
+
+
+.govt-weather li{
+	text-align: center;
+	line-height: 50px;
+	width: 25%;
+	float: left;
+}
+.govt-weather li span{
+	font-size: 20px;
+	font-weight: bold;
+}
+.govt-weather2 li{
+	width: 33.3%
+}

@@ -1,0 +1,223 @@
+.main-header{
+	background: url(../images/govt/top_bg.jpg) repeat;
+	background-size: auto 100%;
+}
+.main-header .menu li a:hover,
+.main-header .menu li.on a,
+.home .home,
+.monitor .monitor,
+.count .count,
+.forecast .forecast,
+.chart .chart{
+  background: #187b1a;
+}
+.main-sidebar{
+	background: url(../images/govt/left_bg.jpg) repeat-y;
+	background-size: 100% auto;
+	width: 230px;
+}
+.sidebar-menu li>a{
+	background: #187b1a url(../images/govt/turn_up.png) 195px center no-repeat;
+	color: #fff;
+}
+.sidebar-menu li.noBg>a,.sidebar-menu li.noBg.on>a{
+	background: #187b1a;
+}
+.sidebar-menu li>a{
+	padding: 10px 15px
+}
+
+.sidebar-menu li.on>a{
+  background:#187b1a url('../images/govt/turn_down.png') 195px center no-repeat;
+}
+.sidebar-menu li>a .icon{
+	margin-right: 10px;
+}
+.sidebar-menu li>a:hover{
+	background-color: #187b1a;
+}
+.icon-land{
+	background: url(../images/govt/land.png) no-repeat;
+}
+.icon-quality{
+	background: url(../images/govt/quality.png) no-repeat;
+}
+.icon-internet{
+	background: url(../images/govt/internet.png) no-repeat;
+}
+.icon-technology{
+	background: url(../images/govt/technology.png) no-repeat;
+}
+.icon-machinery{
+	background: url(../images/govt/machinery.png) no-repeat;
+}
+.main-container{
+	padding-left: 230px;
+}
+.home-title dt{
+	background: none;
+	color: #187b1a;
+}
+.home-type li .hexagon{
+	background: url(../images/govt/hexagon.png) no-repeat;
+	background-size:100%;
+}
+.home-type2 li{
+	width: 18%;
+	min-height: 300px;
+}
+.home-type2 li .link {
+	text-align: center;
+}
+.home-type2 li .link a{
+	display: inline-block;
+	padding:0 15px;
+}
+.location{
+	color: #187b1a;
+}
+.common-title{
+	color: #187b1a;
+	border-color: #187b1a;
+}
+.govt-weather li{
+	text-align: center;
+	line-height: 50px;
+	width: 25%;
+	float: left;
+}
+.govt-weather li span{
+	font-size: 20px;
+	font-weight: bold;
+}
+.govt-weather2 li{
+	width: 33.3%
+}
+.monite-now{
+	width: 53%;
+}
+.monite-day{
+	width: 23%;
+}
+.icon-monite{
+	background: url(../images/govt/monite.png) no-repeat;
+}
+.icon-count{
+	background: url(../images/govt/count.png) no-repeat;
+}
+.icon-forecast{
+	background: url(../images/govt/forecast.png) no-repeat;
+}
+.icon-news{
+	width: 24px;
+	height: 22px;
+	background: url(../images/govt/news.png) no-repeat;
+}
+.news-left{
+	width: 33%;
+	float: left;
+	background: #fff;
+	border: #ddd 1px solid;
+	border-left: none;
+	min-height: 700px;
+}
+.news-right{
+	width: 65%;
+	float: right;
+	background: #fff;
+	border: #ddd 1px solid;
+	border-right: none;
+	overflow-y: auto; 
+}
+.news-tab {
+	background: #f5f9f5;
+	height: 48px;
+	border-bottom: #ddd 1px solid;
+	margin-bottom: 10px;
+}
+.news-tab li{
+	width: 33.3%;
+	float: left;
+	line-height: 48px;
+	text-align: center;
+	font-size: 18px;
+	color: #646464;
+	position: relative;
+	z-index: 10;
+	cursor: pointer;
+}
+.news-tab li.on{
+	background: #fff;
+	padding-bottom: 1px;	
+	border-left: #ddd 1px solid;
+	border-right: #ddd 1px solid;
+	color: #187b1a;
+}
+.news-list{
+	position: relative;
+	z-index: 20;
+	background: #fff;
+	margin-top: -10px;
+	padding: 15px 30px;
+}
+.news-list li{
+	line-height: 44px;
+	border-left: #cecece 1px solid;
+	position: relative;
+}
+.news-list li a{
+	display: block;
+	padding-left: 20px;
+	color: #646464;
+}
+.news-list li a:hover{
+	color: #187b1a;
+}
+.news-list li a:before{
+	position: absolute;
+	content: '';
+	width: 14px;
+	height: 44px;
+	background: url(../images/govt/new_left.jpg) 0 center no-repeat;
+	z-index: 30;
+	left: -8px;
+}
+.news-list li:hover a:before{
+	position: absolute;
+	content: '';
+	width: 14px;
+	height: 44px;
+	background: url(../images/govt/new_hover.jpg) 0 center no-repeat;
+	z-index: 30;
+	left: -8px;
+}
+.news-list li a:after{
+	position: absolute;
+	content: '>';
+	width: 14px;
+	height: 44px;
+	z-index: 30;
+	right: -8px;
+}
+.news-list li em{
+	margin-left: -10px;
+	font-style: normal;
+	font-size: 30px;
+	height: 20px;
+	background: #fff;
+}
+.news-info{
+	padding: 20px 30px;
+}
+.news-info dt{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.news-info dt span{
+	font-size: 12px;
+	color: #ccc;
+}
+.news-info dd{
+	font-size: 16px;
+	line-height: 30px;
+}
